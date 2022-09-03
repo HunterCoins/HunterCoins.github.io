@@ -1,4 +1,3 @@
-'use strict';
 window.addEventListener('DOMContentLoaded', () => {
     function deleteNotDigits(src) {
         return +src.replace(/\D/g, '');

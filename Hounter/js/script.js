@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slider = document.querySelector(slider);
         slidesField = document.querySelector(slidesField);
 
-        const slideWidth = deleteNotDigits(window.getComputedStyle(slides[0]).width),
+        const slideWidth = deleteNotDigits(window.getComputedStyle(slides[0]).clientWidth),
               slidesGap = deleteNotDigits(window.getComputedStyle(slidesField).gap);
 
 

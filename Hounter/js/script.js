@@ -93,7 +93,10 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
     dotSlider(".hero__slider-item", ".hero__slider", '.hero__slider-width', false);
+<<<<<<< HEAD
     dotSlider(".reviews__slider-item", ".reviews__slider", '.reviews__slider-width', true);
+=======
+>>>>>>> e315e86 (Add files via upload)
     
 
     const slides = document.querySelectorAll('.featured__slider-item');
@@ -221,6 +224,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     }
 
+<<<<<<< HEAD
+=======
+    dotSlider(".reviews__slider-item", ".reviews__slider", '.reviews__slider-width', true);
+
+>>>>>>> e315e86 (Add files via upload)
     function forReset(inputId, button) {
         button = document.querySelector(button);
         inputId = document.querySelector(inputId);
